@@ -4,9 +4,9 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Github, Code, BookOpen, Mail, ExternalLink, Star, GitBranch, Terminal } from 'lucide-react';
 
-import Header from './components/Header';
+import Header from './components/Header.jsx';
 import InteractiveButton from './components/InteractiveButton';
-import GitCommands from './components/GitCommands';
+import GitCommands from './components/GitCommands.jsx';
 import ProjectStructure from './components/ProjectStructure';
 
 import './App.css';
@@ -156,7 +156,7 @@ function App() {
               <div className="flex flex-wrap justify-center gap-4">
                 <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                   <Mail className="h-4 w-4 mr-2" />
-                  exemplo@email.com
+                  engenharia@dibitech.com.br
                 </Button>
                 
                 <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
